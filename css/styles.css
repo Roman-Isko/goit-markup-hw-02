@@ -1,3 +1,11 @@
+/* body {
+    font-family: Montserrat;
+} */
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
 a {
     text-decoration: none;
 }
@@ -6,6 +14,6 @@ ul {
     list-style-type: none;
 }
 
-.text {
+/* .text {
     color: blue;
-}
+} */
