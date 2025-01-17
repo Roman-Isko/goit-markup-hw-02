@@ -1,6 +1,7 @@
 body {
     font-family: Roboto, sans-serif;
-    color: #2E2F42;
+    color: #434455;
+    background-color: #ffffff;
 }
 
 a {
@@ -12,13 +13,14 @@ ul {
 }
 
 .header-logo {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    
 }
 
 .header-logo-navy-blue {
@@ -41,6 +43,10 @@ ul {
     color: #2E2F42;
 }
 
+.address {
+    font-style: normal;
+}
+
 .header-contact {
     font-size: 16px;
     font-weight: 400;
@@ -51,7 +57,7 @@ ul {
 
 .header-contact:hover,
 .header-contact:focus {
-    color: blue;
+    color: #404bbf;
 }
 
 .hero {
@@ -64,6 +70,7 @@ ul {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
+    text-align: center;
 }
 
 .hero-btn {
@@ -73,6 +80,7 @@ ul {
     color: #ffffff;
     background-color: #4D5AE5;
     cursor: pointer;
+    letter-spacing: 0.04em;
 }
 
 .features {}
@@ -105,7 +113,9 @@ ul {
     color: #434455;
 }
 
-.team {}
+.team {
+    background-color: #F4F4FD;
+}
 
 .team-title {
     font-size: 36px;
@@ -113,6 +123,9 @@ ul {
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #FFFFFF
 }
 
 .team-list {}
