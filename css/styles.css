@@ -124,7 +124,7 @@ ul {
 }
 
 .team {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -135,12 +135,13 @@ ul {
     color: #2E2F42;
     text-align: center;
     text-transform: capitalize;
-    background-color: #FFFFFF;
 }
 
 .team-list {}
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF;
+}
 
 .team-item-name {
     font-size: 20px;
