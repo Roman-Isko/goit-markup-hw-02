@@ -43,6 +43,11 @@ ul {
     color: #2E2F42;
 }
 
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: #404bbf;
+}
+
 .address {
     font-style: normal;
 }
@@ -83,6 +88,11 @@ ul {
     letter-spacing: 0.04em;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+}
+
 .features {}
 
 .features-title {
@@ -114,7 +124,7 @@ ul {
 }
 
 .team {
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
 }
 
 .team-title {
@@ -125,7 +135,7 @@ ul {
     color: #2E2F42;
     text-align: center;
     text-transform: capitalize;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 
 .team-list {}
@@ -155,18 +165,12 @@ ul {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: #2E2F42;
 }
 
-.portfolio-text {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #000000;
-}
-
-.portfolio-services {
+.portfolio-item-services {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
