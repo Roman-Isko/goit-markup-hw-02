@@ -184,8 +184,6 @@ ul {
 
 .footer {
     background-color: #2E2F42;
-    width: 1440px;
-    height: 312px;
 }
 
 .footer-item-text {
@@ -195,6 +193,8 @@ ul {
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
+
+
 
 
 
